@@ -16,4 +16,4 @@ name: The name of the conversation message. For example "Cancelation" to trigger
 
 ## Automating conversion to mailbox message
 
-Go to the Apps and add a new Webhook. 
+Go to the Apps and add a new Webhook, you should see messages appering in your mailbox for survey resposne. 
