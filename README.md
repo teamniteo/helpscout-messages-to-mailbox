@@ -1,5 +1,5 @@
 # helpscout-messages-to-mailbox
-Creates a new message in mailbox every time the survey message is created. This is needed if you wish to create messages without refreshing survey page.
+Creates a new message in mailbox every time the survey message is created. This is needed if you wish to create messages from survey responses.
 
 ## To use this Cloudflare Worker, follow these steps:
 
