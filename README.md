@@ -12,8 +12,9 @@ Creates a new message in mailbox every time the survey message is created. This 
 Test the worker by sending a POST request to the worker URL with the following query parameters:
 
 mailboxId: The ID of the mailbox to send the Help Scout conversation to.
+
 name: The name of the conversation message. For example "Cancelation" to trigger the Help Scout API request.
 
 ## Automating conversion to mailbox message
 
-Go to the Apps and add a new Webhook, you should see messages appering in your mailbox for survey resposne. 
+Go to the [Apps](https://secure.helpscout.net/apps/webhooks/) and add a new Webhook with a URL that points to your worker (https://helpscout-messages-to-mailbox.workers.dev/?mailboxId=1&name=Cancelation). You should now see messages appering in your mailbox for a survey response. 
