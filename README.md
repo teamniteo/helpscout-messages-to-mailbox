@@ -18,3 +18,7 @@ name: The name of the conversation message. For example "Cancelation" to trigger
 ## Automating conversion to mailbox message
 
 Go to the [Apps](https://secure.helpscout.net/apps/webhooks/) and add a new Webhook with a URL that points to your worker (https://helpscout-messages-to-mailbox.workers.dev/?mailboxId=1&name=Cancelation). You should now see messages appering in your mailbox for a survey response. 
+
+## We're hiring!
+
+At Niteo we regularly contribute back to the Open Source community. If you do too, we'd like to invite you to [join our team](https://niteo.co/careers)!
